@@ -305,7 +305,7 @@ def build_vocab(smiles=None, pad_char='_', start_char='^'):
     chars = []
     # atoms (carbon), replace Cl for Q and Br for W
     chars = chars + ['H', 'B', 'c', 'C', 'n', 'N',
-                     'o', 'O', 'p', 'P', 's', 'S', 'F', 'Q', 'W', 'I','R','A', 'D','E','G','I','J','K','L','M','T','U','V','W','Y']
+                     'o', 'O', 'p', 'P', 's', 'S', 'F',  ,'h','a','b','d','e','f','g','h','i','j','k','l','m','q','r','t','v','w','x','z','Q', 'W', 'I','R','A', 'D','E','G','I','J','K','L','M','T','U','V','W','Y']
     # Atom modifiers: negative charge - has been replaced with ~
     # added explicit hidrogens as Z (H2) and X (H3)
     # negative charge ~ (-), ! (-2),,'&' (-3)
