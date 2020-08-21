@@ -316,7 +316,7 @@ def build_vocab(smiles=None, pad_char='_', start_char='^'):
     # branches
     chars = chars + ['(', ')']
     # cycles
-    chars = chars + ['1', '2', '3', '4', '5', '6', '7', ]
+    chars = chars + ['1', '2', '3', '4', '5', '6', '7','8' ]
     # anit/clockwise
     chars = chars + ['@']
     # directional bonds
