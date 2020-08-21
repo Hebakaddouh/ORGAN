@@ -304,8 +304,8 @@ def build_vocab(smiles=None, pad_char='_', start_char='^'):
     # smile syntax
     chars = []
     # atoms (carbon), replace Cl for Q and Br for W
-     chars = chars + ['H', 'B', 'c', 'C', 'n', 'N',
-                     'o', 'O', 'p', 'P', 's', 'S', 'F', 'Q', 'W', 'I']
+    chars = chars + ['H', 'B', 'c', 'C', 'n', 'N',
+                    'o', 'O', 'p', 'P', 's', 'S', 'F', 'Q', 'W', 'I']
     # Atom modifiers: negative charge - has been replaced with ~
     # added explicit hidrogens as Z (H2) and X (H3)
     # negative charge ~ (-), ! (-2),,'&' (-3)
